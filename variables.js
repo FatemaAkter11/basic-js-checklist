@@ -9,6 +9,14 @@ console.log(typeof number);
 var isTrue = false;
 console.log(typeof isTrue);
 
+// Write 3 Variables Where Data Types is (Number, String, Boolean).
+
+let myName = "Fatema Akter";
+let idNumber = 181151710;
+let isYourProfile = true;
+
+console.log(myName + ' ' + idNumber + ' ' + isYourProfile);
+
 // write 2 variables (let,const)
 
 let price = 134;
