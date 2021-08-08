@@ -1,20 +1,14 @@
-function bestFriend(name) {
-    console.log(name)
-    var max = 0;
-    for (var i = 0; i < 3; i++) {
-        if (max < name[i].length) {
-            max = name[i].length;
-
+function bestFriend(friend) {
+    let max = 0;
+    let largestString;
+    for (let i = 0; i < friend.length; i++) {
+        // console.log(friend[i], friend[i].length);
+        if (friend[i].length > max) {
+            max = friend[i].length;
+            largestString = friend[i];
         }
-        else {
-            continue;
-        }
-
-
     }
-    return max;
+    console.log("Largest String=> " + largestString + " & Length is=> " + max);
 }
-
-var ary = ["Ahammmedd", "Joteyyy", "safia"];
-maxLength = bestFriend(ary);
-console.log(maxLength);
+let friendList = bestFriend(["Fatema Akter", "Rashedul Islam", "Rash", "Tun"]);
+console.log(friendList);
