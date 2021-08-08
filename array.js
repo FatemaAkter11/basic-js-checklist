@@ -1,3 +1,5 @@
+/* Declare an Array and find the number of element, Update element in 4th Position, add and remove element, find spesific element in the array */
+
 let nameArray = ['Rahim', 'Karim', 'judu', 'labu', 'habu'];
 
 console.log(nameArray.length);
@@ -10,20 +12,6 @@ nameArray[4] = 'gadu';
 //console.log(nameArray);
 
 
-//You have an array of numbers.display only the number bigger than 80
-
-// const numbers = [12, 80, 20, 85, 95, 40, 50, 99];
-// function biggarElement(value) {
-//     let highest = 0;
-//     for (let i = 0; i < value.length; i++) {
-//         if (value[i] > highest) {
-//             highest = value[i];
-//         }
-//     }
-//     return highest;
-// }
-// const result = biggarElement();
-// console.log(result);
 
 
 
